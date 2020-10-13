@@ -9,7 +9,6 @@ body {
 
 header {
     min-height: 350px;
-    background-color: blue;
     color: white;
     display: flex;
     flex-direction: column;
@@ -44,7 +43,7 @@ header::after {
     background-position-x: -45px;
 }
 
-.profile-name {
+.profile-name, .title {
     font-size: 3em;
     font-weight: bold;
 }
@@ -158,4 +157,12 @@ footer {
     border: 1px solid #004186;
     border-radius: 5px;
     padding: 5px 8px;
+}
+
+a.post-link {
+    text-decoration: none;
+}
+
+.home-page header, .new-post-page header {
+    background-image: url("../assets/banner.jpeg");
 }
